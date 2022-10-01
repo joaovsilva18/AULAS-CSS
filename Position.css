@@ -1,0 +1,60 @@
+body{
+    height: 800px;
+}
+#principal{
+    height: min-content;
+    width: 1000px;
+    border: 5px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.filiais{
+    height: 220px;
+    width: 400px;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+}
+.quadrado{
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgb(9, 40, 75);
+    margin: 5px;
+}
+#box1{
+    background-color: rgb(107, 151, 235);
+}
+#box2{
+    background-color: chocolate;
+}
+#box3{
+    background-color: chocolate;
+}
+#box4{
+    background-color: rgb(71, 202, 71);
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+#box5{
+    background-color: chocolate;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+#box6{
+    background-color: rgb(71, 202, 71);
+    position: absolute;
+    top: 160px;
+    left: 60px;
+}
+#box7{
+    background-color: rgb(71, 202, 71);
+    position: fixed;
+    top: 400px;
+    left: 650px;
+}
+ 

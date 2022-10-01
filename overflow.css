@@ -1,0 +1,48 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#principal{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Scroll{
+    width: 300px;
+    height: 200px;
+    background: palegreen;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 40px;
+    overflow: scroll;
+}
+.Hidden{
+    width: 300px;
+    height: 200px;
+    background: goldenrod;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.auto{
+    width: 300px;
+    height: 200px;
+    background: dodgerblue;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 40px;
+    overflow: auto;
+}
+.visible{
+    width: 300px;
+    height: 200px;
+    background: green;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 40px;
+    overflow: visible;
+}
