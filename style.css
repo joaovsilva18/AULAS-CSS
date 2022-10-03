@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+.cabeçalho{
+    background-color: #323aa8;
+}
+h1 span{
+    color: white;
+}
+h2{
+    color: #323aa8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+div .nome{
+    color: black;
+    float: left;
+    padding-top: 25px;
+    margin-left: 120px;
+    margin-right: 70px;
+}
+nav{
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav div a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.a1{
+    padding: 10px;
+    margin: 20px;
+}
+.nav img{
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 230px;
+}
+.img-fluid{
+    height: 420px;
+}
+.banner{
+    margin: 0 250px;
+}
+.banner img{
+    width: 1260px;
+}
+footer p{
+    background-color: #323aa8;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+}
