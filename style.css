@@ -1,0 +1,23 @@
+.principal{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'play';
+}
+.sub{
+    color: black;
+    font-size: 16px;
+    font-family: 'play';
+}
+.paragrafo{
+    color: #282928;
+    text-align: justify;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.list{
+    display: flex;
+}
+li{
+    margin: 0px 30px;
+}
