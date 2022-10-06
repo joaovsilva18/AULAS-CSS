@@ -1,0 +1,92 @@
+:root{
+    --f-u-d: #8ee8fa;
+    --a-s-d: #38f238;
+    --a-t-c: #f5760f;
+    --h-f-cb: #02baf2;
+    --l-e-t: #f7f9fa;
+}
+body{
+    background-color: var(--f-u-d);
+}
+main{
+    width: 100%;
+}
+
+main section{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: var(--h-f-cb);
+    text-align: center;
+}
+p{
+    padding: 15px;
+    color: var(--l-e-t);
+}
+aside{
+    display: flex;
+    width: 25%;
+    background-color: var(--a-s-d);
+    justify-content: center;
+    align-items: center;
+}
+article{
+    width: 65%;
+    height: 500px;
+    background-color: var(--a-t-c);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    justify-content: flex-end;
+}
+img{
+    width: 200px;
+    height: 100px;
+    margin: 0px 10px;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: var(--h-f-cb);
+    text-align: center;
+}
+@media only screen and (max-width: 768px){
+    section, aside{
+        width: 100%;
+    }  
+}
+@media only screen and (max-width: 1080px){
+    section, aside{
+        width: 100%;
+    }  
+}
+@media only screen and (max-width: 768px){
+    section, article{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1080px){
+    section, article{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    section, article, img{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 1080px){
+    section, article, img{
+        width: 95%;
+    }
+}
