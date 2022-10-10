@@ -1,0 +1,93 @@
+:root{
+  --color-black: black;
+  --color-white: white;
+  --color-wall: aqua;
+  --color-pac-man: yellow;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color-black);
+}
+.pacman{
+  width: 150px;
+  height: 150px;
+  background-color: var(--color-pac-man);
+  border-radius: 50%;
+  position: absolute;
+}
+.eyes{
+  width: 15px;
+  height: 15px;
+  background-color: var(--color-black);
+  position: absolute;
+  border-radius: 50%;
+  top: 35px;
+  right: 45px;
+}
+.mouth{
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-right: solid 100px var(--color-black);
+  border-bottom: solid 40px transparent;
+  border-top: solid 40px transparent;
+  position: absolute;
+}
+.ghost{
+  height: 200px;
+  margin: 25px;
+  position: relative;
+  width: 200px;
+  border-radius: 100%;
+}
+.head {
+  background-color: red;
+  height: 100px;
+  position: relative;
+  width: 152px;
+  border-radius: 150px 150px 0 0;
+  transform: translate(20% 20%);
+}
+.eye, .eyeBack {
+  position: relative;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+.eyeBack {
+  background: #FFF;
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+  #esquerdo {
+    float: left;
+    margin: 50px 0 0 25px;
+  }
+  .direito{
+    float: right;
+    margin: 50px 25px 0 0;
+  }
+  .eye {
+    background: #0d2bd7;
+    height: 25px;
+    margin:10%;
+    width: 25px;
+  }
+  .legs {
+    border-right: 38px solid red;
+    border-left: 38px solid red;
+    border-bottom: 40px solid transparent;
+    display: block;
+    float: left;
+    height: 40px;
+    width: 0;
+  }
